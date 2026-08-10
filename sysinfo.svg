@@ -1,38 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="260" style="background:#0d1117;border-radius:10px;font-family:ui-monospace, 'Cascadia Code', 'Fira Code', monospace;">
-<defs>
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="2.5" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-</defs>
-<rect x="0" y="0" width="460" height="36" rx="10" fill="#2d6a0a" opacity="0.35"/>
-<circle cx="20" cy="18" r="5" fill="#ff5f56"/>
-<circle cx="38" cy="18" r="5" fill="#ffbd2e"/>
-<circle cx="56" cy="18" r="5" fill="#27c93f"/>
-<text x="230" y="23" font-size="12" fill="#39ff14" text-anchor="middle" filter="url(#glow)">peeyush@peeyushcodes: ~</text>
-<text x="20" y="60" font-size="13" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>▸</text>
-<text x="34" y="60" font-size="12" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>os</text>
-<text x="92" y="60" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>→</text>
-<text x="108" y="60" font-size="12" fill="#e6edf3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>GitHub Profile v2.0</text>
-<text x="20" y="86" font-size="13" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.38s" fill="freeze"/>▸</text>
-<text x="34" y="86" font-size="12" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.38s" fill="freeze"/>role</text>
-<text x="92" y="86" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.38s" fill="freeze"/>→</text>
-<text x="108" y="86" font-size="12" fill="#e6edf3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.38s" fill="freeze"/>CS Student</text>
-<text x="20" y="112" font-size="13" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.56s" fill="freeze"/>▸</text>
-<text x="34" y="112" font-size="12" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.56s" fill="freeze"/>focus</text>
-<text x="92" y="112" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.56s" fill="freeze"/>→</text>
-<text x="108" y="112" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.56s" fill="freeze"/>Systems & AI</text>
-<text x="20" y="138" font-size="13" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.74s" fill="freeze"/>▸</text>
-<text x="34" y="138" font-size="12" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.74s" fill="freeze"/>stack</text>
-<text x="92" y="138" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.74s" fill="freeze"/>→</text>
-<text x="108" y="138" font-size="12" fill="#e6edf3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.74s" fill="freeze"/>Python · C++ · Go</text>
-<text x="20" y="164" font-size="13" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.92s" fill="freeze"/>▸</text>
-<text x="34" y="164" font-size="12" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.92s" fill="freeze"/>now</text>
-<text x="92" y="164" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.92s" fill="freeze"/>→</text>
-<text x="108" y="164" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.92s" fill="freeze"/>Learning & Building</text>
-<text x="20" y="190" font-size="13" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.10s" fill="freeze"/>▸</text>
-<text x="34" y="190" font-size="12" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.10s" fill="freeze"/>status</text>
-<text x="92" y="190" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.10s" fill="freeze"/>→</text>
-<text x="108" y="190" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.10s" fill="freeze"/>Open to Collaborate ✦</text>
-<text x="20" y="220" font-size="13" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.28s" fill="freeze"/>▸ <animate attributeName="opacity" values="0;1;0" dur="1s" begin="1.28s" repeatCount="indefinite"/>_</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="416" style="background:#0d1117;border-radius:10px;font-family:ui-monospace, 'Cascadia Code', 'Fira Code', monospace;">
+<defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="0" y="0" width="460" height="34" rx="10" fill="#2d6a0a" opacity="0.3"/>
+<circle cx="18" cy="17" r="5" fill="#ff5f56"/>
+<circle cx="36" cy="17" r="5" fill="#ffbd2e"/>
+<circle cx="54" cy="17" r="5" fill="#27c93f"/>
+<text x="230" y="22" font-size="12" fill="#39ff14" text-anchor="middle" filter="url(#glow)">peeyush@peeyushcodes — system info</text>
+<text x="18" y="56" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.15s" fill="freeze"/>▸</text>
+<text x="32" y="56" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.15s" fill="freeze"/>name</text>
+<text x="88" y="56" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.15s" fill="freeze"/>→</text>
+<text x="104" y="56" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.15s" fill="freeze"/>Peeyush Kumar</text>
+<text x="18" y="80" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.31s" fill="freeze"/>▸</text>
+<text x="32" y="80" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.31s" fill="freeze"/>role</text>
+<text x="88" y="80" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.31s" fill="freeze"/>→</text>
+<text x="104" y="80" font-size="12" fill="#e6edf3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.31s" fill="freeze"/>AI/ML Student</text>
+<text x="18" y="104" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.47s" fill="freeze"/>▸</text>
+<text x="32" y="104" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.47s" fill="freeze"/>focus</text>
+<text x="88" y="104" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.47s" fill="freeze"/>→</text>
+<text x="104" y="104" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.47s" fill="freeze"/>LLMs · ML · Intelligent Systems</text>
+<text x="18" y="128" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.63s" fill="freeze"/>▸</text>
+<text x="32" y="128" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.63s" fill="freeze"/>stack</text>
+<text x="88" y="128" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.63s" fill="freeze"/>→</text>
+<text x="104" y="128" font-size="12" fill="#e6edf3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.63s" fill="freeze"/>Python · C++ · Go</text>
+<text x="18" y="152" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.79s" fill="freeze"/>▸</text>
+<text x="32" y="152" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.79s" fill="freeze"/>now</text>
+<text x="88" y="152" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.79s" fill="freeze"/>→</text>
+<text x="104" y="152" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.79s" fill="freeze"/>Building windows-developer-mcp</text>
+<text x="18" y="176" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.95s" fill="freeze"/>▸</text>
+<text x="32" y="176" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.95s" fill="freeze"/>status</text>
+<text x="88" y="176" font-size="12" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.95s" fill="freeze"/>→</text>
+<text x="104" y="176" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.95s" fill="freeze"/>Open to Collaborate ✦</text>
+<line x1="18" y1="204" x2="442" y2="204" stroke="#2d6a0a" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.5" dur="0.4s" begin="1.11s" fill="freeze"/></line>
+<text x="18" y="216" font-size="10" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.27s" fill="freeze"/>── skills ──</text>
+<text x="18" y="244" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.43s" fill="freeze"/>Python</text>
+<rect x="98" y="236" width="344" height="8" rx="4" fill="#2d6a0a" opacity="0.3"/>
+<rect x="98" y="236" width="0" height="8" rx="4" fill="#39ff14" filter="url(#glow)" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.43s" fill="freeze"/><animate attributeName="width" values="0;316" dur="0.6s" begin="1.43s" fill="freeze"/></rect>
+<text x="448" y="244" font-size="10" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.43s" fill="freeze"/>92%</text>
+<text x="18" y="268" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.59s" fill="freeze"/>C++</text>
+<rect x="98" y="260" width="344" height="8" rx="4" fill="#2d6a0a" opacity="0.3"/>
+<rect x="98" y="260" width="0" height="8" rx="4" fill="#39ff14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.59s" fill="freeze"/><animate attributeName="width" values="0;240" dur="0.6s" begin="1.59s" fill="freeze"/></rect>
+<text x="448" y="268" font-size="10" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.59s" fill="freeze"/>70%</text>
+<text x="18" y="292" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.75s" fill="freeze"/>Go</text>
+<rect x="98" y="284" width="344" height="8" rx="4" fill="#2d6a0a" opacity="0.3"/>
+<rect x="98" y="284" width="0" height="8" rx="4" fill="#39ff14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.75s" fill="freeze"/><animate attributeName="width" values="0;189" dur="0.6s" begin="1.75s" fill="freeze"/></rect>
+<text x="448" y="292" font-size="10" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.75s" fill="freeze"/>55%</text>
+<text x="18" y="316" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.91s" fill="freeze"/>ML / AI</text>
+<rect x="98" y="308" width="344" height="8" rx="4" fill="#2d6a0a" opacity="0.3"/>
+<rect x="98" y="308" width="0" height="8" rx="4" fill="#39ff14" filter="url(#glow)" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.91s" fill="freeze"/><animate attributeName="width" values="0;275" dur="0.6s" begin="1.91s" fill="freeze"/></rect>
+<text x="448" y="316" font-size="10" fill="#2d6a0a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.91s" fill="freeze"/>80%</text>
+<line x1="18" y1="336" x2="442" y2="336" stroke="#2d6a0a" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.5" dur="0.4s" begin="2.23s" fill="freeze"/></line>
+<text x="18" y="348" font-size="10" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.39s" fill="freeze"/>── connect ──</text>
+<text x="18" y="366" font-size="11" fill="#28a805" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.55s" fill="freeze"/>[⌥]</text>
+<text x="46" y="366" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.55s" fill="freeze"/>github.com/peeyushcodes</text>
+<text x="18" y="386" font-size="11" fill="#28a805" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.71s" fill="freeze"/>[in]</text>
+<text x="46" y="386" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.71s" fill="freeze"/>linkedin.com/in/peeyushkumar5317</text>
+<text x="18" y="406" font-size="11" fill="#28a805" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.87s" fill="freeze"/>[@]</text>
+<text x="46" y="406" font-size="11" fill="#8b949e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.87s" fill="freeze"/>peeyushkumar5317@gmail.com</text>
+<text x="18" y="430" font-size="12" fill="#39ff14" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="3.03s" fill="freeze"/>▸ <animate attributeName="opacity" values="0;1;0" dur="1s" begin="3.03s" repeatCount="indefinite"/>_</text>
 </svg>

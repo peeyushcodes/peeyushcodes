@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="80" style="background:#0d1117;border-radius:8px;font-family:ui-monospace, 'Cascadia Code', 'Fira Code', monospace;">
+<defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<text x="20" y="46" font-size="16" fill="#1a6b0a" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace">~/peeyushcodes $ </text>
+<defs><clipPath id="clip0"><rect x="183" y="0" height="80" width="0"><animate attributeName="width" values="0;374" dur="2.15s" begin="0.000s" fill="freeze" id="t0a"/><animate attributeName="width" values="374;0" dur="0.98s" begin="3.545s" fill="freeze" id="t0b"/></rect></clipPath></defs>
+<text x="183" y="46" font-size="16" fill="#39ff14" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" clip-path="url(#clip0)" filter="url(#glow)">Peeyush Kumar — AI/ML Student & Builder</text>
+<defs><clipPath id="clip1"><rect x="183" y="0" height="80" width="0"><animate attributeName="width" values="0;403" dur="2.31s" begin="4.770s" fill="freeze" id="t1a"/><animate attributeName="width" values="403;0" dur="1.05s" begin="8.480s" fill="freeze" id="t1b"/></rect></clipPath></defs>
+<text x="183" y="46" font-size="16" fill="#39ff14" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" clip-path="url(#clip1)" filter="url(#glow)">Building intelligent systems from scratch.</text>
+<defs><clipPath id="clip2"><rect x="183" y="0" height="80" width="0"><animate attributeName="width" values="0;451" dur="2.58s" begin="9.780s" fill="freeze" id="t2a"/><animate attributeName="width" values="451;0" dur="1.18s" begin="13.765s" fill="freeze" id="t2b"/></rect></clipPath></defs>
+<text x="183" y="46" font-size="16" fill="#39ff14" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" clip-path="url(#clip2)" filter="url(#glow)">windows-developer-mcp · taipan · resume-builder</text>
+<defs><clipPath id="clip3"><rect x="183" y="0" height="80" width="0"><animate attributeName="width" values="0;442" dur="2.53s" begin="15.190s" fill="freeze" id="t3a"/><animate attributeName="width" values="442;0" dur="1.15s" begin="19.120s" fill="freeze" id="t3b"/></rect></clipPath></defs>
+<text x="183" y="46" font-size="16" fill="#39ff14" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" clip-path="url(#clip3)" filter="url(#glow)">Open to research collaborations & internships.</text>
+<text x="183" y="46" font-size="16" fill="#39ff14" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" filter="url(#glow)"><animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>▌</text>
+</svg>
