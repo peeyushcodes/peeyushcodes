@@ -1,6 +1,6 @@
 <div align="center">
 
-```
+```text
 ██████╗ ███████╗███████╗██╗   ██╗██╗   ██╗███████╗██╗  ██╗
 ██╔══██╗██╔════╝██╔════╝╚██╗ ██╔╝██║   ██║██╔════╝██║  ██║
 ██████╔╝█████╗  █████╗   ╚████╔╝ ██║   ██║███████╗███████║
@@ -37,7 +37,7 @@
 </div>
 
 | Project | Description | Stack |
-|---------|-------------|-------|
+| ------- | ----------- | ----- |
 | [**windows-developer-mcp**](https://github.com/peeyushcodes/windows-developer-mcp) | Production-grade MCP server for Windows with 40+ sandboxed dev tools | `Python` `MCP` |
 | [**taipan**](https://github.com/peeyushcodes/taipan) | AI-native programming language with VM and C transpilation | `Python` |
 | [**resume-builder**](https://github.com/peeyushcodes/resume-builder) | ATS-compliant resume engine generating .docx/.pdf from JSON schemas | `JavaScript` `Node.js` |
