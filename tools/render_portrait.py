@@ -21,16 +21,19 @@ ACCENT     = "#39ff14"
 DIM        = "#1a6b0a"
 FONT       = "ui-monospace, 'Cascadia Code', 'Fira Code', monospace"
 
-# Output grid — more cols = more detail
-COLS       = 56
-ROWS       = 42
+# Output grid
+# KEY: CHAR_W=6px, LINE_H=12px → chars are 2× taller than wide
+# So for a square image: ROWS = COLS × (CHAR_W / LINE_H) = COLS / 2
+# Using COLS=62, ROWS=31 → rendered 372×372px (square, correct proportions)
+COLS       = 62
+ROWS       = 31
 
 # SVG text metrics at font-size 10px monospace
 FONT_SIZE  = 10
-CHAR_W     = 6.0    # px per character (monospace at font-size 10)
+CHAR_W     = 6.0    # px per character
 LINE_H     = 12     # px per line
 
-STAGGER_MS = 38     # ms between row reveals
+STAGGER_MS = 42     # ms between row reveals
 PAD_LEFT   = 10
 SVG_W      = int(COLS * CHAR_W) + PAD_LEFT + 4
 SVG_H      = ROWS * LINE_H + 44
@@ -51,18 +54,26 @@ def photo_to_ascii(photo_path: Path) -> list[str]:
     img = Image.open(photo_path).convert("L")  # grayscale
     w, h = img.size
 
-    # Correct aspect ratio: monospace chars are taller than wide
-    # so we need fewer rows proportionally
-    aspect_correction = CHAR_W / LINE_H  # ~0.5
-    target_h = int(w * (ROWS / COLS) * aspect_correction)
+    # ── Aspect ratio fix ────────────────────────────────────────────────────
+    # The rendered grid is COLS*CHAR_W wide × ROWS*LINE_H tall.
+    # To avoid stretch, the image crop must have the SAME ratio:
+    #   target_h = image_w * (ROWS * LINE_H) / (COLS * CHAR_W)
+    # For COLS=62, ROWS=31, CHAR_W=6, LINE_H=12:
+    #   target_h = w * (31*12)/(62*6) = w * 372/372 = w  → no crop (square in, square out)
+    rendered_w = COLS * CHAR_W
+    rendered_h = ROWS * LINE_H
+    target_h = int(w * rendered_h / rendered_w)
     target_h = min(target_h, h)
 
-    # Crop from top — favor upper portion (head + face)
+    # Crop — focus on face (top 85% of the image = head + shoulders)
     if target_h < h:
-        top = max(0, int((h - target_h) * 0.15))  # 15% from top = include hair
+        top = max(0, int((h - target_h) * 0.1))
         img = img.crop((0, top, w, top + target_h))
+    else:
+        # Full square: crop to top 85% to cut excess chest area
+        img = img.crop((0, 0, w, int(h * 0.85)))
 
-    # Resize to char grid using high-quality downsampling
+    # Resize to char grid
     img = img.resize((COLS, ROWS), Image.LANCZOS)
 
     # Bilateral filter for smooth skin while preserving hair edges
