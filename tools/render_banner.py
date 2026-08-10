@@ -2,7 +2,7 @@
 render_banner.py
 ----------------
 Generates banner.svg — cycles through phrases with fade-in/fade-out.
-Uses SMIL opacity animation with clean keyTimes formatting.
+Uses SMIL opacity animation with clean keyTimes formatting and XML escaping.
 """
 
 from pathlib import Path
@@ -27,6 +27,10 @@ PHRASES = [
 PHRASE_DUR = 3.2   # seconds each phrase is shown (including fade)
 FADE       = 0.4   # fade duration in seconds
 TOTAL      = len(PHRASES) * PHRASE_DUR  # 12.8s total cycle
+
+
+def escape_xml(s: str) -> str:
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
 def phrase_keyframes(idx: int) -> tuple[str, str]:
@@ -97,7 +101,7 @@ def render() -> str:
     prefix = "~/peeyushcodes $ "
     parts.append(
         f'<text x="24" y="{text_y}" font-size="16" fill="{DIM}" '
-        f'letter-spacing="0.5">{prefix}</text>'
+        f'letter-spacing="0.5">{escape_xml(prefix)}</text>'
     )
 
     text_x = 24 + len(prefix) * 10
@@ -111,7 +115,7 @@ def render() -> str:
             f'<animate attributeName="opacity" '
             f'keyTimes="{kt}" values="{kv}" '
             f'dur="{TOTAL:.2f}s" repeatCount="indefinite"/>'
-            f'{phrase}</text>'
+            f'{escape_xml(phrase)}</text>'
         )
 
     # ── Blinking cursor ───────────────────────────────────────────────────────
