@@ -1,0 +1,37 @@
+name: Refresh contribution graph
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 10:30 AM IST daily
+  workflow_dispatch: {}   # manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r tools/requirements-daily.txt
+
+      - name: Pull contribution data
+        run: python tools/pull_contributions.py
+
+      - name: Render graph SVG
+        run: python tools/render_graph.py
+
+      - name: Commit updated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: refresh contribution graph [skip ci]"
+          file_pattern: "assets/contributions.json graph.svg"
