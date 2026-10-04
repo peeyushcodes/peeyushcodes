@@ -4,44 +4,9 @@
     "current_streak": 0,
     "longest_streak": 0,
     "busiest_day_of_week": "Mon",
-    "fetched_at": "2026-10-03T10:12:28.644935Z"
+    "fetched_at": "2026-10-04T10:53:36.634017Z"
   },
   "days": [
-    {
-      "date": "2025-09-28",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-29",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-30",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-01",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-02",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-03",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-04",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-10-05",
       "count": 0,
@@ -1859,6 +1824,11 @@
     },
     {
       "date": "2026-10-03",
+      "count": 0,
+      "level": 1
+    },
+    {
+      "date": "2026-10-04",
       "count": 0,
       "level": 0
     }
