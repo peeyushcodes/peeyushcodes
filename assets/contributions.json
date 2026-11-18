@@ -4,7 +4,7 @@
     "current_streak": 0,
     "longest_streak": 0,
     "busiest_day_of_week": "Mon",
-    "fetched_at": "2026-11-17T14:06:08.230373Z"
+    "fetched_at": "2026-11-18T13:39:30.256551Z"
   },
   "days": [
     {
@@ -1839,6 +1839,11 @@
     },
     {
       "date": "2026-11-17",
+      "count": 0,
+      "level": 1
+    },
+    {
+      "date": "2026-11-18",
       "count": 0,
       "level": 0
     }
